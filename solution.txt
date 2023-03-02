@@ -1,9 +1,9 @@
-               Difference between git stash appy and git stash pop
+               Difference between git stash apply and git stash pop
 
- git stash [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clya[D and git stash pop[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D apply and git stash pop both doing the same work. Both reverse the git stash command action
-But we have a major diference between git stash apply and git stash pop. 
-git stash pop reverse the git stash command action but after getting these undo files this command delete 
-that undo action from temperary memory [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[C[C[C[C[C[C[Con file that is present in heap memory.
+ git stash apply and git stash pop both doing the same work. Both reverse the git stash command action
+But we have a major diference between git stash apply and git stash pop.
+git stash pop reverse the git stash command action but after getting these undo files this command delete
+that undo action n file that is present in heap memory.
 
-git stash apply get that modified or new created files that we undo with git stash command but this command 
+git stash apply get that modified or new created files that we undo with git stash command but this command
 not remove that data from heap memory.
